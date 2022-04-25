@@ -1,0 +1,107 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    transition: 2s;
+}
+#arrow{
+    color: rgb(197, 0, 0);
+    transition: 0.5s;
+    animation: arrow 0.5s linear infinite alternate;
+}
+@keyframes arrow {
+    from{
+        color: rgb(148, 0, 0);
+    }
+    to{
+        color: rgb(255, 0, 0);
+        text-shadow: 0 0 2rem red;
+    }
+    
+}
+.navbtn label{
+    display: none;
+    color: white;
+    text-shadow: 0 0 1rem white;
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    border: 0.5rem solid rgb(0, 0, 0);
+    box-shadow: 0 0 2rem black;
+}
+#navi{
+    color: #09ff0046;
+    animation: navi 1s linear infinite alternate;
+}
+@keyframes navi {
+    from{
+        color: #07ce0049;
+    }
+    to{
+        color: #09ff00;
+        text-shadow: 0 0 2rem #ffffff;
+    }
+    
+}
+.navbar button{
+    float: right;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    height: 3rem;
+    width: 6.5rem;
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(184, 0, 0);
+    box-shadow: 0 0 1rem rgb(224, 0, 0);
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.navbar button:hover{
+    border: 0.1rem solid rgb(184, 0, 0);
+    box-shadow: 0 0 1rem rgb(224, 0, 0);
+    background: rgb(224, 0, 0) ;
+    color: white;
+}
+
+.navbar input{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2.7rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+    transition: 1s;
+    box-shadow: 0 0 1.5rem white;
+}
+.navbar input:hover{
+    box-shadow: 0 0 2rem rgb(238, 0, 0);
+    border: none;
+    outline: 0.5rem solid rgba(187, 0, 0, 0.541);
+}
+.navbar ul{
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.671);
+    transition: 2s;
+}
+
+.navbar li{
+    cursor: pointer;
+    padding: 2.7rem 2.5rem;
+    font-size: 1.8rem;
+    float: left;
+    text-decoration: none;
+    color: rgb(223, 219, 219);
+    letter-spacing: 0.2rem;
+    list-style: none;
+    transition: 0.4s;
+}
+.navbar li:hover{
+    color: rgb(255, 255, 255);
+}
+#hide{
+    display: none;
+}

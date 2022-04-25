@@ -1,0 +1,310 @@
+/* Website's Webpage Setups*/
+
+*{
+    margin: 0;
+    top: 0;
+}
+html{
+    font-size: 50%;
+    font-family: 'Audiowide', cursive;
+    font-weight: bolder;
+}
+
+/* Website Webpage Setup Finished*/
+
+/* Creating a break using id to use it instead of br*/
+#break{
+    margin-top: 10rem;
+}
+
+/* index.HTML CSS */
+.intro{
+    text-align: center;
+    margin-top: 25rem;
+    font-family: 'Special Elite', cursive;
+}
+.intro label{
+    box-shadow: 0 0 2rem rgb(5, 0, 0);
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 1rem 2rem;
+    font-size: 4rem;
+    border-radius: 1rem;
+    color: white;
+    text-shadow: 0 0 0.5rem white;
+}
+.intro button{
+    font-size: 3rem;
+    color: rgb(255, 247, 247);
+    font-family: 'Special Elite', cursive;
+    margin-top: 5rem;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 3rem rgb(5, 0, 0);
+    outline: none;
+    background: rgba(0, 0, 0, 0.579);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 4rem;
+    
+}
+#search{
+    text-shadow: 0 0 0.5rem white;
+    font-size: 2rem;
+}
+.intro button:hover{
+    font-size: 3rem;
+    font-family: 'Special Elite', cursive;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgb(0, 0, 0);
+    outline: none;
+    background:  rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+/* index.HTML ends*/
+
+/* mainpage.HTML Starts*/
+
+.hide button{
+    padding: 5rem;
+}
+#heart{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0;
+}
+.kala{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    background-size: cover;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.509) ;
+    padding: 1rem 0rem;
+    text-shadow: 0 0 0.3rem white;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5rem;
+    border-bottom: 0.1rem solid white;
+}
+.main label{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.509);
+    padding: 2rem 2.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    border-radius: 10rem;
+    box-shadow: 0 0 1rem rgb(0, 195, 255);
+    text-shadow: 0 0 0.5rem white;
+}
+.main button{
+    font-family: 'Special Elite', cursive;
+    padding: 1.5rem 2rem;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0 0 1rem rgba(255, 255, 255, 0.234);
+    margin-bottom: 5rem;
+    border: none; outline: none;
+    background: rgba(0, 0, 0, 0.379);
+    box-shadow: 0 0 2rem rgba(157, 0, 172, 0.599);
+    border-radius: 5rem;
+    margin: 0rem 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main button:hover{
+    box-shadow: 0 0 3rem rgb(234, 0, 255);
+    text-shadow: 0 0 2rem white;
+    background: rgba(0, 0, 0, 0.679);
+    
+}
+/* mainpage.HTML ends*/
+
+/* CSS - Arrange.HTML */
+
+.arrange h1{
+    float: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.579);
+    box-shadow: 0 0 1rem black;
+    text-shadow: 0 0 1rem black;
+    width: 50rem;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-right: 3rem;
+    margin-top: 12rem;
+    padding: 2rem 3rem;
+}
+.arrange form{
+    padding: 2rem 1rem;
+    float: left;
+    margin-left: 5rem;
+    background-color: rgba(0, 0, 0, 0.379);
+    box-shadow: 0 0 1rem black;
+    width: 55rem;
+    height: 60rem;
+    letter-spacing: 0.15rem;
+    margin-top: 2rem;
+    border-top-right-radius: 7rem;
+    border-end-start-radius: 7rem;
+}
+.arrange label{
+    font-size: 2.2rem;
+    color: white;
+    border-bottom: 0.4rem solid red;
+    border-end-end-radius: 1rem;
+}
+.arrange input{
+    font-size: 1.7rem;
+    color: white;
+    height: 3rem;
+    width: 40rem;
+    text-align: center;
+    background-color: transparent;
+    border: none; outline: none;
+    border-bottom: 0.2rem solid white;
+    border-radius: 20%;
+    font-family: 'Special Elite', cursive;
+    margin-top: 1.5rem;
+}
+::placeholder{
+    letter-spacing: 0.2rem;
+    color: rgba(255, 255, 255, 0.882);
+}
+.arrange button{
+    height: 5.5rem;
+    width: 15.5rem;
+    background-color: transparent;
+    box-shadow: 0 0 2rem red;
+    border: 0.2rem solid red; outline: none;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 2rem;
+    border-top-left-radius: 3rem;
+    border-end-end-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.arrange button:hover{
+    background-color: red;
+    text-shadow: 0 0 1rem white;
+    
+}
+
+#formbreak{
+    margin-top: 1rem;
+}
+.contacts{
+    margin-top: 4rem;
+    text-align: center;
+}
+.contacts label{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 0 0 1rem black;
+    padding: 1rem 0.7rem;
+    letter-spacing: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.379);
+    border-end-end-radius: 2rem;
+    border-top-left-radius: 1.5rem;
+}
+.fa{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0 0 1rem white;
+    margin-top: 2rem;
+    animation: fa 10s linear infinite alternate;
+    padding: 0rem 0.5rem;
+}
+@keyframes fa {
+    0%{
+        color: white;
+    }
+    50%{
+        color: rgba(255, 0, 0, 0.644);
+        text-shadow: 0 0 0.2rem rgba(255, 0, 0, 0.664);
+    }
+    100%{
+        color: rgb(255, 0, 0);
+        text-shadow: 0 0 0.5rem rgb(255, 0, 0);
+    }
+    
+}
+/* arrange.HTML CSS Over Here*/
+
+
+/* proposal.HTML CSS */
+.proposal{
+    text-align: center;
+}
+.proposal h1{
+    color: white;
+    letter-spacing: 0.2rem;
+    border-bottom: 0.2rem solid rgb(255, 0, 0);
+    margin-bottom: 3rem;
+}
+.proposal form{
+    float: right;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.379);
+    padding: 5rem 5rem;
+    border-top-left-radius: 5rem;
+    border-end-end-radius: 8rem;
+    box-shadow: 0 0 2rem black;
+    height: 50rem;
+}
+.proposal input{
+    width: 35rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none; outline: none;
+    border-bottom: 0.2rem solid white;
+    color: white;
+    font-size: 2rem;
+    border-radius: 30%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.785);
+    text-shadow: 0 0 0.3rem white;
+}
+
+#describe{
+    height: 10rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.proposal button{
+    height: 5.5rem;
+    width: 15.5rem;
+    background-color: transparent;
+    box-shadow: 0 0 2rem red;
+    border: 0.2rem solid red; outline: none;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 2rem;
+    border-top-left-radius: 3rem;
+    border-end-end-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1.8rem;
+}
+.proposal button:hover{
+    background-color: red;
+    text-shadow: 0 0 1rem white;
+    
+}

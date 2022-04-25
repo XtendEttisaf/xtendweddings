@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XtendWeddings : Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="respo.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body background="img/form.jpg" style="background-size: cover; background-repeat: no-repeat;">
+    
+    <div class="navbtn" id="navbtn">
+        <label onclick="nav()"><i class="fa-solid fa-location-arrow" id="navi"></i> E N A B L E  -  N A V I G A T I O N <i class="fa-solid fa-location-arrow" id="navi"></i></label>
+
+    </div>
+
+    <div class="navbar" id="navbar">
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li><i class="fa-solid fa-angles-right" id="arrow"></i> XtendWeddings</li>
+                </a>
+                <a>
+                    <li onclick="navwrap()" id="hide"><i class="fa-solid fa-angles-right" id="arrow"></i> Hide Navigation </li>
+                </a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a>
+                    <li>Facebook</li>
+                </a>
+                <input type="text" value="" placeholder="Search">
+                <button>Search</button>
+            </ul>
+        </nav>
+</div>
+    <p id="break"></p>
+    <div class="form" id="intro">
+        <center>
+    <form>
+        <h1> <i class="fa-solid fa-angles-right" id="arrow"></i> XtendWedding Registration!</h1>
+        <p id="formbreak"></p>.
+
+        <p><i class="fa-solid fa-user fa"></i></p>
+        <input type="text" name="" placeholder="Your Name" required>
+        <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+        <input type="text" name="" placeholder="BetterHalf Name" required>
+        <p><i class="fa-solid fa-envelope fa"></i></p>
+        <input type="email" name="" placeholder="Email Address" required>
+        <p><i class="fa fa-mobile" aria-hidden="true"></i></p>
+        <input type="number" name="" placeholder="Mobile Number" required>
+        <p id="formbreak"></p>
+        <button type="submit"> Submit Request</button>
+    </form>
+</center>
+</div>
+
+<script src="https://kit.fontawesome.com/506fd28715.js" crossorigin="anonymous"></script>
+    <script src="navscript.js"></script>
+</body>
+</html>
